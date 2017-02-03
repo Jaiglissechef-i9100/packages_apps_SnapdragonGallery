@@ -33,7 +33,7 @@ import android.view.Display;
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.filtershow.crop.CropActivity;
 import com.android.gallery3d.filtershow.crop.CropExtras;
-import com.android.gallery3d.R;
+import org.codeaurora.gallery.R;
 
 import java.lang.IllegalArgumentException;
 
@@ -116,7 +116,7 @@ public class Wallpaper extends Activity {
                 if (extras != null) {
                     fromScreenColor = extras.getBoolean(KEY_FROM_SCREENCOLOR, false);
                 }
-                if ((Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) && (!fromScreenColor)) {
+                /*if ((Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) && (!fromScreenColor)) {
                     WallpaperManager wpm = WallpaperManager.getInstance(getApplicationContext());
                     try {
                         cropAndSetWallpaperIntent = wpm.getCropAndSetWallpaperIntent(mPickedItem);
@@ -128,7 +128,7 @@ public class Wallpaper extends Activity {
                     } catch (IllegalArgumentException iae) {
                         // ignored; fallthru to existing crop activity
                     }
-                }
+                }*/
 
                 int width,height;
                 float spotlightX,spotlightY;
