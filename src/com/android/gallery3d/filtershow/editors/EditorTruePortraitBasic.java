@@ -36,9 +36,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.FilterShowActivity;
 import com.android.gallery3d.filtershow.filters.FilterRepresentation;
+
+import com.android.gallery3d.R;
 
 public class EditorTruePortraitBasic extends BasicEditor  {
     private static final String LOGTAG = "EditorTruePortraitBasic";

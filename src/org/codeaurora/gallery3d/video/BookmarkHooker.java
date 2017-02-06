@@ -1,11 +1,10 @@
 package org.codeaurora.gallery3d.video;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import org.codeaurora.gallery.R;
+import com.android.gallery3d.R;
 import org.codeaurora.gallery3d.ext.MovieUtils;
 
 public class BookmarkHooker extends MovieHooker {
@@ -71,10 +70,7 @@ public class BookmarkHooker extends MovieHooker {
         intent.addCategory(Intent.CATEGORY_DEFAULT);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP
                 | Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY);
-        Bitmap bitmap = getIntent().getParcelableExtra(KEY_LOGO_BITMAP);
-        if (bitmap != null) {
-            intent.putExtra(KEY_LOGO_BITMAP, bitmap);
-        }
+        intent.putExtra(KEY_LOGO_BITMAP, getIntent().getParcelableExtra(KEY_LOGO_BITMAP));
         getContext().startActivity(intent);
     }
 }

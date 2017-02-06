@@ -20,8 +20,9 @@ import android.graphics.RectF;
 import android.util.JsonReader;
 import android.util.JsonWriter;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.EditorCrop;
+
+import com.android.gallery3d.R;
 
 import java.io.IOException;
 

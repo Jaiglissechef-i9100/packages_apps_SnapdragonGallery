@@ -16,8 +16,9 @@
 
 package com.android.gallery3d.filtershow.filters;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.ImageOnlyEditor;
+
+import com.android.gallery3d.R;
 
 public class FilterImageBorderRepresentation extends FilterRepresentation {
     private int mDrawableResource = 0;

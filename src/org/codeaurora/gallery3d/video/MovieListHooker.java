@@ -5,7 +5,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import org.codeaurora.gallery.R;
+import com.android.gallery3d.R;
 import org.codeaurora.gallery3d.ext.IMovieItem;
 import org.codeaurora.gallery3d.ext.IMovieList;
 import org.codeaurora.gallery3d.ext.IMovieListLoader;

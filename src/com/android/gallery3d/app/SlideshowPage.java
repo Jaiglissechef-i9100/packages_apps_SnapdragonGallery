@@ -28,7 +28,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.view.MotionEvent;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.Utils;
 import com.android.gallery3d.data.ContentListener;
 import com.android.gallery3d.data.MediaItem;
@@ -41,6 +40,8 @@ import com.android.gallery3d.ui.SlideshowView;
 import com.android.gallery3d.ui.SynchronizedHandler;
 import com.android.gallery3d.util.Future;
 import com.android.gallery3d.util.FutureListener;
+
+import com.android.gallery3d.R;
 
 public class SlideshowPage extends ActivityState {
     private static final String TAG = "SlideshowPage";

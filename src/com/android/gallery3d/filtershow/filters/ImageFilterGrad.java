@@ -19,10 +19,6 @@ package com.android.gallery3d.filtershow.filters;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Matrix;
-
-import org.codeaurora.gallery.R;
-import com.android.gallery3d.filtershow.pipeline.FilterEnvironment;
-
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Matrix;
@@ -33,7 +29,7 @@ import android.renderscript.Script.LaunchOptions;
 import android.renderscript.Type;
 import android.util.Log;
 
-import org.codeaurora.gallery.R;
+import com.android.gallery3d.R;
 import com.android.gallery3d.filtershow.pipeline.FilterEnvironment;
 
 public class ImageFilterGrad extends ImageFilterRS {

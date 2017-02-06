@@ -20,9 +20,10 @@ import android.util.JsonReader;
 import android.util.JsonWriter;
 import android.util.Log;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.EditorRotate;
 import com.android.gallery3d.filtershow.editors.ImageOnlyEditor;
+
+import com.android.gallery3d.R;
 
 import java.io.IOException;
 

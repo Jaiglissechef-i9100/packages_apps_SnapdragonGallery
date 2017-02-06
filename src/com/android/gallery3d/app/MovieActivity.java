@@ -65,7 +65,6 @@ import android.widget.ShareActionProvider;
 import android.widget.ToggleButton;
 import android.widget.Toast;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.common.Utils;
 import com.android.gallery3d.ui.Knob;
@@ -77,6 +76,8 @@ import org.codeaurora.gallery3d.video.ExtensionHelper;
 import org.codeaurora.gallery3d.video.MovieTitleHelper;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothProfile;
+
+import com.android.gallery3d.R;
 
 /**
  * This activity plays a video from a specified URI.

@@ -34,8 +34,9 @@ import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.util.Log;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.HazeBusterEditor;
+
+import com.android.gallery3d.R;
 
 import static com.android.gallery3d.filtershow.imageshow.ImageTrueScanner.*;
 

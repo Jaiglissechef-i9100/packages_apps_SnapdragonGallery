@@ -58,8 +58,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import org.codeaurora.gallery.R;
-import com.android.gallery3d.common.ApiHelper.SystemProperties;
+import java.util.ArrayList;
+import com.android.gallery3d.common.ApiHelper.SystemProperties
 import com.android.gallery3d.common.Utils;
 import com.android.gallery3d.data.DataManager;
 import com.android.gallery3d.data.MediaItem;
@@ -73,6 +73,8 @@ import com.android.gallery3d.util.Future;
 import com.android.gallery3d.util.GalleryUtils;
 import com.android.gallery3d.util.ThreadPool.Job;
 import com.android.gallery3d.util.ThreadPool.JobContext;
+
+import com.android.gallery3d.R;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -310,7 +312,7 @@ public final class GalleryActivity extends AbstractGalleryActivity implements On
                 LayoutInflater inflater = (LayoutInflater) mContext
                         .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 view = inflater.inflate(
-                        org.codeaurora.gallery.R.layout.drawer_list_item, null);
+                        com.android.gallery3d.R.layout.drawer_list_item, null);
             } else {
                 view = convertView;
             }

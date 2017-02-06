@@ -46,8 +46,6 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import org.codeaurora.gallery.R;
-
 import com.android.gallery3d.filtershow.FilterShowActivity;
 import com.android.gallery3d.filtershow.filters.FilterRepresentation;
 import com.android.gallery3d.filtershow.filters.FilterTruePortraitFusionRepresentation;
@@ -55,6 +53,8 @@ import com.android.gallery3d.filtershow.imageshow.ImageTruePortraitFusion;
 import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.ui.DoNotShowAgainDialog;
 import com.android.gallery3d.util.GalleryUtils;
+
+import com.android.gallery3d.R;
 
 public class EditorTruePortraitFusion extends Editor {
     public static final String TAG = "EditorTruePortraitFusion";

@@ -38,7 +38,6 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.Toolbar;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.data.DataManager;
 import com.android.gallery3d.data.MediaItem;
@@ -48,6 +47,8 @@ import com.android.gallery3d.ui.GLRootView;
 import com.android.gallery3d.util.PanoramaViewHelper;
 import com.android.gallery3d.util.ThreadPool;
 import com.android.photos.data.GalleryBitmapPool;
+
+import com.android.gallery3d.R;
 
 import java.io.FileNotFoundException;
 

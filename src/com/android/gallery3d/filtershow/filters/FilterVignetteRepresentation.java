@@ -19,11 +19,12 @@ package com.android.gallery3d.filtershow.filters;
 import android.util.JsonReader;
 import android.util.JsonWriter;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.controller.BasicParameterInt;
 import com.android.gallery3d.filtershow.controller.Parameter;
 import com.android.gallery3d.filtershow.editors.EditorVignette;
 import com.android.gallery3d.filtershow.imageshow.Oval;
+
+import com.android.gallery3d.R;
 
 import java.io.IOException;
 

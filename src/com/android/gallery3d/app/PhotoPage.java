@@ -47,8 +47,6 @@ import android.widget.ShareActionProvider;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import org.codeaurora.gallery.R;
-
 import com.android.gallery3d.app.dualcam3d.ThreeDimensionalActivity;
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.data.ComboAlbum;
@@ -80,6 +78,8 @@ import com.android.gallery3d.ui.SelectionManager;
 import com.android.gallery3d.ui.SynchronizedHandler;
 import com.android.gallery3d.util.GalleryUtils;
 import com.android.gallery3d.util.UsageStatistics;
+
+import com.android.gallery3d.R;
 
 import java.util.List;
 import java.util.Locale;

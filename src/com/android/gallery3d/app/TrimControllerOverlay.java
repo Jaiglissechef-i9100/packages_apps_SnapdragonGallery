@@ -23,8 +23,9 @@ import android.content.Context;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.ApiHelper;
+
+import com.android.gallery3d.R;
 
 /**
  * The controller for the Trimming Video.

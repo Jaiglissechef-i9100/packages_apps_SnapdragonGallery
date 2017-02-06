@@ -28,8 +28,9 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.Utils;
+
+import com.android.gallery3d.R;
 
 import java.util.Locale;
 

@@ -39,8 +39,9 @@ import android.widget.TextView;
 import android.widget.Toolbar;
 import android.widget.TwoLineListItem;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.ApiHelper;
+
+import com.android.gallery3d.R;
 
 import java.util.ArrayList;
 

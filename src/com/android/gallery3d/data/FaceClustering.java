@@ -19,8 +19,9 @@ package com.android.gallery3d.data;
 import android.content.Context;
 import android.graphics.Rect;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.picasasource.PicasaSource;
+
+import com.android.gallery3d.R;
 
 import java.util.ArrayList;
 import java.util.TreeMap;

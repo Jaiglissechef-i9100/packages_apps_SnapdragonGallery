@@ -2,8 +2,9 @@ package com.android.gallery3d.filtershow.filters;
 
 import android.graphics.Bitmap;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.ImageOnlyEditor;
+
+import com.android.gallery3d.R;
 
 public class ImageFilterNegative extends ImageFilter {
     private static final String SERIALIZATION_NAME = "NEGATIVE";

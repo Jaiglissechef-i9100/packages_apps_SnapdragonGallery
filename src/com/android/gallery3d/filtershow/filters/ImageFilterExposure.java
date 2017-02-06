@@ -16,9 +16,9 @@
 
 package com.android.gallery3d.filtershow.filters;
 
-import org.codeaurora.gallery.R;
-
 import android.graphics.Bitmap;
+
+import com.android.gallery3d.R;
 
 public class ImageFilterExposure extends SimpleImageFilter {
     private static final String SERIALIZATION_NAME = "EXPOSURE";

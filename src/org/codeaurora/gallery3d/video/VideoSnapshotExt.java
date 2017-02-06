@@ -40,9 +40,11 @@ import android.os.Environment;
 import android.provider.MediaStore.Images;
 import android.provider.MediaStore.Images.ImageColumns;
 import android.util.Log;
-import org.codeaurora.gallery.R;
+
 import com.android.gallery3d.app.MovieControllerOverlay;
 import com.android.gallery3d.app.MovieControllerOverlayNew;
+
+import com.android.gallery3d.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -20,10 +20,11 @@ import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.EditorDraw;
 import com.android.gallery3d.filtershow.filters.FilterDrawRepresentation;
 import com.android.gallery3d.filtershow.filters.ImageFilterDraw;
+
+import com.android.gallery3d.R;
 
 public class ImageDraw extends ImageShow {
 

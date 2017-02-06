@@ -39,7 +39,6 @@ import android.graphics.RectF;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.cache.BitmapCache;
 import com.android.gallery3d.filtershow.cache.ImageLoader;
 import com.android.gallery3d.filtershow.imageshow.GeometryMathUtils;
@@ -48,6 +47,8 @@ import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.pipeline.FilterEnvironment;
 import com.android.gallery3d.filtershow.pipeline.ImagePreset;
 import com.android.gallery3d.filtershow.tools.DualCameraNativeEngine;
+
+import com.android.gallery3d.R;
 
 public class ImageFilterDualCamSketch extends ImageFilter {
     private static final String TAG = ImageFilterDualCamSketch.class.getSimpleName();

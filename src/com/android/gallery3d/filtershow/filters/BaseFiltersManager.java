@@ -20,11 +20,12 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.util.Log;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.EditorTruePortraitBasic;
 import com.android.gallery3d.filtershow.editors.EditorTruePortraitImageOnly;
 import com.android.gallery3d.filtershow.editors.ImageOnlyEditor;
 import com.android.gallery3d.filtershow.pipeline.ImagePreset;
+
+import com.android.gallery3d.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

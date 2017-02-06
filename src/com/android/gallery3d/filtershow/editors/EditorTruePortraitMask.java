@@ -45,11 +45,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.FilterShowActivity;
 import com.android.gallery3d.filtershow.imageshow.ImageTruePortraitMask;
 import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.ui.AlertMsgDialog;
+
+import com.android.gallery3d.R;
 
 public class EditorTruePortraitMask extends Editor  {
     private static final String LOGTAG = "EditorTruePortraitMask";

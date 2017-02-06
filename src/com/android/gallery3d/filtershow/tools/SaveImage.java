@@ -44,7 +44,6 @@ import android.provider.MediaStore.Images.ImageColumns;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.Utils;
 import com.android.gallery3d.exif.ExifInterface;
 import com.android.gallery3d.filtershow.FilterShowActivity;
@@ -59,6 +58,8 @@ import com.android.gallery3d.filtershow.pipeline.CachingPipeline;
 import com.android.gallery3d.filtershow.pipeline.ImagePreset;
 import com.android.gallery3d.filtershow.pipeline.ProcessingService;
 import com.android.gallery3d.util.XmpUtilHelper;
+
+import com.android.gallery3d.R;
 
 /**
  * Handles saving edited photo

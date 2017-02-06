@@ -28,13 +28,14 @@ import android.graphics.PathMeasure;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.app.GalleryAppImpl;
 import com.android.gallery3d.app.Log;
 import com.android.gallery3d.filtershow.cache.ImageLoader;
 import com.android.gallery3d.filtershow.filters.FilterDrawRepresentation.StrokeData;
 import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.pipeline.FilterEnvironment;
+
+import com.android.gallery3d.R;
 
 import java.util.Vector;
 

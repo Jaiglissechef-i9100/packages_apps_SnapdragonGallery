@@ -44,9 +44,10 @@ import android.graphics.Rect;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.filters.FilterDrawRepresentation.StrokeData;
 import com.android.gallery3d.filtershow.ui.AlertMsgDialog;
+
+import com.android.gallery3d.R;
 
 public class TruePortraitNativeEngine {
     private static final String TAG = "TruePortraitNativeEngine";

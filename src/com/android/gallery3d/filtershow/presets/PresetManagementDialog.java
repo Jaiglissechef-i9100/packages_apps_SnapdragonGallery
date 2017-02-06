@@ -24,8 +24,10 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
-import org.codeaurora.gallery.R;
+
 import com.android.gallery3d.filtershow.FilterShowActivity;
+
+import com.android.gallery3d.R;
 
 public class PresetManagementDialog extends DialogFragment implements View.OnClickListener {
     private UserPresetsAdapter mAdapter;

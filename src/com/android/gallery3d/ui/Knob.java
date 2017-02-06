@@ -46,7 +46,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import java.lang.Math;
 
-import org.codeaurora.gallery.R;
+import com.android.gallery3d.R;
 
 public class Knob extends FrameLayout {
     private static final int STROKE_WIDTH = 6;

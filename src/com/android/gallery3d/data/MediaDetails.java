@@ -16,11 +16,12 @@
 
 package com.android.gallery3d.data;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.Utils;
 import com.android.gallery3d.exif.ExifInterface;
 import com.android.gallery3d.exif.ExifTag;
 import com.android.gallery3d.exif.Rational;
+
+import com.android.gallery3d.R;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

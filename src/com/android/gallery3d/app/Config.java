@@ -19,12 +19,13 @@ package com.android.gallery3d.app;
 import android.content.Context;
 import android.content.res.Resources;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.ui.AlbumSetSlotRenderer;
 import com.android.gallery3d.ui.AlbumSlotRenderer;
 import com.android.gallery3d.ui.SlotView;
 import com.android.gallery3d.ui.TimeLineSlotRenderer;
 import com.android.gallery3d.ui.TimeLineSlotView;
+
+import com.android.gallery3d.R;
 
 final class Config {
     public static class AlbumSetPage {

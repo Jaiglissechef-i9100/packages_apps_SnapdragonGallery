@@ -36,9 +36,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.util.SaveVideoFileInfo;
 import com.android.gallery3d.util.SaveVideoFileUtils;
+
+import com.android.gallery3d.R;
 
 import java.io.File;
 import java.io.IOException;

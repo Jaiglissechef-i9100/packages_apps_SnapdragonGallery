@@ -36,9 +36,9 @@ import android.net.Uri;
 import android.util.JsonReader;
 import android.util.JsonWriter;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.EditorDualCamFusion;
 
+import com.android.gallery3d.R;
 
 public class FilterDualCamFusionRepresentation extends FilterRepresentation implements FilterFusionRepresentation {
     private static final String LOGTAG = "FilterFusionRepresentation";

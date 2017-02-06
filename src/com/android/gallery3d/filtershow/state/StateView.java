@@ -22,12 +22,14 @@ import android.graphics.*;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
-import org.codeaurora.gallery.R;
+
 import com.android.gallery3d.filtershow.FilterShowActivity;
 import com.android.gallery3d.filtershow.category.SwipableView;
 import com.android.gallery3d.filtershow.filters.FilterRepresentation;
 import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.pipeline.ImagePreset;
+
+import com.android.gallery3d.R;
 
 public class StateView extends View implements SwipableView {
 

@@ -16,8 +16,9 @@
 
 package com.android.gallery3d.filtershow.filters;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.EditorTinyPlanet;
+
+import com.android.gallery3d.R;
 
 public class FilterTinyPlanetRepresentation extends FilterBasicRepresentation {
     private static final String SERIALIZATION_NAME = "TINYPLANET";

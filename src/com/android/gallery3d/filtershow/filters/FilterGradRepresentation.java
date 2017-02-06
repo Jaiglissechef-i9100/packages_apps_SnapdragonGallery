@@ -19,10 +19,11 @@ import android.graphics.Rect;
 import android.util.JsonReader;
 import android.util.JsonWriter;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.editors.EditorGrad;
 import com.android.gallery3d.filtershow.imageshow.MasterImage;
 import com.android.gallery3d.filtershow.imageshow.Line;
+
+import com.android.gallery3d.R;
 
 import java.io.IOException;
 import java.util.Vector;

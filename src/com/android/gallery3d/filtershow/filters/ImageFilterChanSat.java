@@ -24,8 +24,9 @@ import android.renderscript.RenderScript;
 import android.renderscript.Script.LaunchOptions;
 import android.renderscript.Type;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.filtershow.pipeline.FilterEnvironment;
+
+import com.android.gallery3d.R;
 
 public class ImageFilterChanSat extends ImageFilterRS {
     private static final String LOGTAG = "ImageFilterChanSat";

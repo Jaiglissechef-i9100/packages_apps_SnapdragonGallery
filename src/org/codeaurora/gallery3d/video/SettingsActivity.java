@@ -20,7 +20,7 @@ import android.telephony.TelephonyManager;
 import android.text.method.DigitsKeyListener;
 import android.util.Log;
 import android.view.MenuItem;
-import org.codeaurora.gallery.R;
+import com.android.gallery3d.R;
 
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.common.ApiHelper.SystemProperties;

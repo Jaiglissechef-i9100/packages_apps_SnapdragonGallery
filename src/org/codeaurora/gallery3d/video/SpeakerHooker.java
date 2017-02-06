@@ -40,8 +40,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.ApiHelper.AudioSystem;
+
+import com.android.gallery3d.R;
 
 public class SpeakerHooker extends MovieHooker {
 

@@ -43,7 +43,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import org.codeaurora.gallery.R;
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.common.BlobCache;
 import com.android.gallery3d.util.CacheManager;
@@ -60,6 +59,8 @@ import org.codeaurora.gallery3d.video.IControllerRewindAndForward.IRewindAndForw
 import org.codeaurora.gallery3d.video.ScreenModeManager;
 import org.codeaurora.gallery3d.video.ScreenModeManager.ScreenModeListener;
 import org.codeaurora.gallery3d.video.VideoSnapshotExt;
+
+import com.android.gallery3d.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
