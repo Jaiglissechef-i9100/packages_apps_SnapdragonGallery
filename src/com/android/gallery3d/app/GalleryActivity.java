@@ -59,7 +59,6 @@ import android.widget.Toast;
 import android.widget.Toolbar;
 
 import java.util.ArrayList;
-import com.android.gallery3d.common.ApiHelper.SystemProperties
 import com.android.gallery3d.common.Utils;
 import com.android.gallery3d.data.DataManager;
 import com.android.gallery3d.data.MediaItem;
@@ -132,10 +131,6 @@ public final class GalleryActivity extends AbstractGalleryActivity implements On
         } else {
             initializeByIntent();
         }
-
-        boolean ddmBulk = SystemProperties.getBoolean("persist.gallery.dualcam.ddmbulk", false);
-        if(ddmBulk)
-            startBulkMpoProcess();
 
         mSavedInstanceState = null;
     }

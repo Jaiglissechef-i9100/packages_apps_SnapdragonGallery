@@ -41,7 +41,7 @@ LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D
 
 LOCAL_SDK_VERSION := current
 
-LOCAL_JNI_SHARED_LIBRARIES := libjni_gallery_eglfence libjni_gallery_filters libjni_gallery_jpegstream
+LOCAL_JNI_SHARED_LIBRARIES := libjni_eglfence libjni_filtershow_filters libjni_jpegstream
 LOCAL_SHARED_LIBRARIES += libjni_dualcamera libjni_trueportrait
 
 ifeq ($(TARGET_TS_MAKEUP), true)
