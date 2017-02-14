@@ -33,7 +33,6 @@ import android.view.Display;
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.filtershow.crop.CropActivity;
 import com.android.gallery3d.filtershow.crop.CropExtras;
-import org.codeaurora.gallery.R;
 
 import com.android.gallery3d.R;
 
@@ -120,7 +119,6 @@ public class Wallpaper extends Activity {
                 }
 
                 /*if ((Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) && (!fromScreenColor)) {
-                    WallpaperManager wpm = WallpaperManager.getInstance(getApplicationContext());
                     try {
                         cropAndSetWallpaperIntent = wpm.getCropAndSetWallpaperIntent(mPickedItem);
                         startActivity(cropAndSetWallpaperIntent);
@@ -132,6 +130,7 @@ public class Wallpaper extends Activity {
                         // ignored; fallthru to existing crop activity
                     }
                 }*/
+                WallpaperManager wpm = WallpaperManager.getInstance(getApplicationContext());
 
                 int width,height;
                 float spotlightX,spotlightY;
