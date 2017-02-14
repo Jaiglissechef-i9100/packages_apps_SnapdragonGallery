@@ -33,6 +33,7 @@ import android.view.Display;
 import com.android.gallery3d.common.ApiHelper;
 import com.android.gallery3d.filtershow.crop.CropActivity;
 import com.android.gallery3d.filtershow.crop.CropExtras;
+import org.codeaurora.gallery.R;
 
 import com.android.gallery3d.R;
 
@@ -117,6 +118,7 @@ public class Wallpaper extends Activity {
                 if (extras != null) {
                     fromScreenColor = extras.getBoolean(KEY_FROM_SCREENCOLOR, false);
                 }
+
                 /*if ((Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) && (!fromScreenColor)) {
                     WallpaperManager wpm = WallpaperManager.getInstance(getApplicationContext());
                     try {
@@ -140,8 +142,8 @@ public class Wallpaper extends Activity {
                     spotlightX = extras.getFloat(KEY_SPOTLIGHT_X, 0);
                     spotlightY = extras.getFloat(KEY_SPOTLIGHT_Y, 0);
                 } else {
-                    width = getWallpaperDesiredMinimumWidth();
-                    height = getWallpaperDesiredMinimumHeight();
+                    width = wpm.getDesiredMinimumWidth();
+                    height = wpm.getDesiredMinimumHeight();
                     Point size = getDefaultDisplaySize(new Point());
                     spotlightX = (float) size.x / width;
                     spotlightY = (float) size.y / height;
