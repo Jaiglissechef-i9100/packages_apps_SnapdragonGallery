@@ -50,6 +50,8 @@ public class DoNotShowAgainDialog extends DialogFragment {
     private int mMessageId;
     private CheckBox mDoNotShowAgainChk;
     private DialogInterface.OnClickListener mButtonClickListener;
+    private DialogInterface.OnDismissListener mDialogDismissListener;
+    private DialogInterface.OnCancelListener mCancelListener;
 
     public DoNotShowAgainDialog(int titleId, int msgId, int sharedPrefKeyId) {
         mTitleId = titleId;
@@ -83,6 +85,30 @@ public class DoNotShowAgainDialog extends DialogFragment {
 
     public void setOnOkButtonClickListener(DialogInterface.OnClickListener listener) {
         mButtonClickListener = listener;
+    }
+
+    public void setOnDismissListener (DialogInterface.OnDismissListener listener) {
+        mDialogDismissListener = listener;
+    }
+
+    @Override
+    public void onDismiss(DialogInterface dialog) {
+        super.onDismiss(dialog);
+        if (mDialogDismissListener != null) {
+            mDialogDismissListener.onDismiss(dialog);
+        }
+    }
+
+    public void setOnCancelListener(DialogInterface.OnCancelListener listener) {
+        mCancelListener = listener;
+    }
+
+    @Override
+    public void onCancel(DialogInterface dialog) {
+        super.onCancel(dialog);
+        if (mCancelListener != null) {
+            mCancelListener.onCancel(dialog);
+        }
     }
 
     @Override

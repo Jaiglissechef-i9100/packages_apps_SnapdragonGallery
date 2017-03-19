@@ -39,7 +39,6 @@ import com.android.gallery3d.app.dualcam3d.gl.Renderer;
 
 import com.android.gallery3d.R;
 
-
 public class Controller implements Gyro.Listener {
     private static final String TAG = "Controller";
     private static final float ANGLE_PER_PIXEL = (float) Math.toRadians(0.03f);

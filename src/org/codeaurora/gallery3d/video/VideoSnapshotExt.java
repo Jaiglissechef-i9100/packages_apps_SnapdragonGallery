@@ -40,6 +40,7 @@ import android.os.Environment;
 import android.provider.MediaStore.Images;
 import android.provider.MediaStore.Images.ImageColumns;
 import android.util.Log;
+import android.webkit.URLUtil;
 
 import com.android.gallery3d.app.MovieControllerOverlay;
 import com.android.gallery3d.app.MovieControllerOverlayNew;
@@ -148,6 +149,9 @@ public class VideoSnapshotExt implements IVideoSnapshotListener {
 
         private Bitmap doVideoSnap(Uri videoUri, int snapPosition) {
             MediaMetadataRetriever retriever = new MediaMetadataRetriever();
+            if (videoUri == null || !URLUtil.isValidUrl(videoUri.toString())) {
+                return null;
+            }
             retriever.setDataSource(mContext, videoUri);
             String durationString =
                     retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION);

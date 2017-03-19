@@ -42,7 +42,6 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-
 import com.android.gallery3d.filtershow.FilterShowActivity;
 import com.android.gallery3d.filtershow.filters.FilterDualCamFusionRepresentation;
 import com.android.gallery3d.filtershow.filters.FilterRepresentation;
@@ -174,7 +173,8 @@ public class EditorDualCamFusion extends Editor {
                 if (dialog == null) {
                     dialog = new DoNotShowAgainDialog(
                             R.string.fusion_pick_background, R.string.dualcam_fusion_intro,
-                            R.string.pref_dualcam_fusion_intro_show_key) {
+                            R.string.pref_dualcam_fusion_intro_show_key);
+                    dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
                         @Override
                         public void onCancel(DialogInterface dialog) {
                             super.onCancel(dialog);
@@ -182,7 +182,7 @@ public class EditorDualCamFusion extends Editor {
                             activity.cancelCurrentFilter();
                             activity.leaveSeekBarPanel();
                         }
-                    };
+                    });
                     dialog.setOnOkButtonClickListener(new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int id) {

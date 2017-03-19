@@ -974,5 +974,4 @@ public class ImageShow extends View implements OnGestureListener,
     {
        mActivity.toggleComparisonButtonVisibility();
     }
-
 }
